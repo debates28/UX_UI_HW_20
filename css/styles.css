@@ -18,8 +18,8 @@ body h2 {
   font-family: inter !important;
   font-style: normal;
   color: black;
+  margin-top: 50px !important;
   margin-bottom: 50px;
-  margin-top: 25px !important;
 }
 
 body h3 {
@@ -99,7 +99,6 @@ body .card-items p {
   color: black;
 }
 
-
 .header-card h2 {
   margin-bottom: 30px;
 }
@@ -121,6 +120,8 @@ body p {
   font-size: 21.33px;
   font-style: normal;
   font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .text-content li {
