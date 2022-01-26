@@ -10,6 +10,6 @@ setTimeout(() => {
     vanish();
     var webpage = document.querySelector(".webpage")
     webpage.classList.remove("webpage")
-}, 3);
+}, 3500);
 
 // 3500
