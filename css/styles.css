@@ -1,0 +1,190 @@
+.navbar ul {
+  margin-left: auto;
+}
+
+.navbar {
+  margin-bottom: 50px;
+  background-color: white;
+}
+
+body h1 {
+  font-family: inter !important;
+  font-style: normal;
+  color: black;
+  margin-bottom: 20px;
+}
+
+body h2 {
+  font-family: inter !important;
+  font-style: normal;
+  color: black;
+  margin-bottom: 50px;
+  margin-top: 25px !important;
+}
+
+body h3 {
+  font-family: inter !important;
+  font-style: normal;
+  color: white;
+}
+
+body .card-items p {
+  font-family: epilogue !important;
+  font-style: normal;
+  color: white;
+}
+
+.jumbotron .img-fluid {
+  margin-bottom: 20px;
+}
+
+.jumbotron .btn {
+  margin-bottom: 60px;
+}
+
+.btn {
+  font-family: inter !important;
+}
+  
+.nav-link {
+  font-family: inter !important;
+  font-style: normal;
+}
+
+.container-fluid .img-fluid {
+    align-items: left;
+
+}
+
+.silly {
+  margin-left: 50px;
+}
+
+.cs-card {
+  background-color: black;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+.cs-items h3 {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.cs-items p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cs-items .btn {
+  margin-left: 135px;
+  margin-bottom: 20px;
+}
+
+.btn-dark:hover{
+  color: rgb(81, 151, 255);
+  transform: translateY(-4px);
+}
+
+.btn-dark{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+.ux-content li {
+  margin-bottom: 20px;
+  font-family: epilogue !important;
+  font-size: large;
+  font-style: normal;
+  font-weight: 600;
+  color: black;
+}
+
+
+.header-card h2 {
+  margin-bottom: 30px;
+}
+
+.header-card h3 {
+  color: black;
+}
+
+.header-card img {
+ margin-top: 30px;
+}
+
+body .header-card h3 {
+  font-family: epilogue !important;
+}
+
+body p {
+  font-family: epilogue !important;
+  font-size: 21.33px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.text-content li {
+  font-family: epilogue !important;
+  font-style: normal;
+  font-size: 21.33px;
+  font-weight: 400;
+}
+
+/* PreLoader Disc Animation */
+
+.disappear {
+  animation: vanish 1s forwards;
+}
+
+@keyframes vanish {
+  100%{
+      opacity: 0;
+      visibility: hidden;
+  }
+}
+
+div .disc {
+perspective: 500px;	
+  position: fixed;
+display: flex;
+  background-color: white;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+height: 100vh;
+}
+
+.disc {
+  margin-left: 900px;
+width: 200px;
+height: 200px;
+border-radius: 100%;
+background: transparent;
+border: 3px solid rgb(0, 0, 0);
+color: blue;
+font-size: 20px;
+transform: rotateY(0deg);
+animation: rotateAnimation 5s linear infinite;
+}
+
+.preLoader {
+  background-color: white;
+  height: 100vh;
+  position: fixed;
+}
+
+@keyframes rotateAnimation {
+0% {transform: rotateY(0deg) rotateZ(0deg);}
+50% {transform: rotateY(180deg) rotateZ(5deg);}
+100% {transform: rotateY(360deg) rotateZ(0deg);}
+}
+
+.webpage {
+  display: none;
+}
+
+@media (max-width: 600){
+  .cs-card {
+    margin-bottom: 30px;
+  }
+}
