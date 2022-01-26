@@ -8,14 +8,14 @@
 }
 
 body h1 {
-  font-family: inter !important;
+  font-family: 'Inter', sans-serif !important;
   font-style: normal;
   color: black;
   margin-bottom: 20px;
 }
 
 body h2 {
-  font-family: inter !important;
+  font-family: 'Inter', sans-serif !important;
   font-style: normal;
   color: black;
   margin-top: 50px !important;
@@ -23,13 +23,13 @@ body h2 {
 }
 
 body h3 {
-  font-family: inter !important;
+  font-family: 'Inter', sans-serif !important;
   font-style: normal;
   color: white;
 }
 
 body .card-items p {
-  font-family: epilogue !important;
+  font-family: 'Epilogue', sans-serif;
   font-style: normal;
   color: white;
 }
@@ -43,11 +43,11 @@ body .card-items p {
 }
 
 .btn {
-  font-family: inter !important;
+  font-family: 'Inter', sans-serif !important;
 }
   
 .nav-link {
-  font-family: inter !important;
+  font-family: 'Inter', sans-serif !important;
   font-style: normal;
 }
 
@@ -92,7 +92,7 @@ body .card-items p {
 
 .ux-content li {
   margin-bottom: 20px;
-  font-family: epilogue !important;
+  font-family: 'Epilogue', sans-serif;
   font-size: large;
   font-style: normal;
   font-weight: 600;
@@ -112,11 +112,11 @@ body .card-items p {
 }
 
 body .header-card h3 {
-  font-family: epilogue !important;
+  font-family: 'Epilogue', sans-serif;
 }
 
 body p {
-  font-family: epilogue !important;
+  font-family: 'Epilogue', sans-serif;
   font-size: 21.33px;
   font-style: normal;
   font-weight: 400;
@@ -125,7 +125,7 @@ body p {
 }
 
 .text-content li {
-  font-family: epilogue !important;
+  font-family: 'Epilogue', sans-serif;
   font-style: normal;
   font-size: 21.33px;
   font-weight: 400;
